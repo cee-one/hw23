@@ -30,4 +30,12 @@ Prompt: Review my `player.c` for NULL checks and name-buffer safety.
 
 Suggestion: Test a name longer than 31 characters to check that the copy stays within the array.
 
+Git evidence
+ubuntu@cs1380-fall26:~/home/ubuntu/cs1380/hw23$ git status
+On branch main
+nothing to commit, working tree clean
+ubuntu@cs1380-fall26:~/home/ubuntu/cs1380/hw23$ git log --oneline
+3cb5fc6 (HEAD -> main) git ignore and txt files
+d8cb49f main program
+fc844e4 Header and functions
 

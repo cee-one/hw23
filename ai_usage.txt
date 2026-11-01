@@ -1,0 +1,107 @@
+"Create a comment based guide that references lecture slides as well as textbook page numbers in which I can refer to as well to help me better understand to write the necessary code."
+
+critique for the response was nothing - all the slides had what I needed 
+
+player header
+// Textbook Chapter 6 - Structures
+// Store a player's name, jersey number, and points
+
+// Textbook Chapter 6 - Structure pointers
+// Print all the player's information
+
+// Textbook Chapter 6 - Structure initialization
+// Set the player's name, jersey, and points
+
+// Textbook Chapter 6 - Accessing members
+// Return the player's points
+
+// Textbook Chapter 6 - Updating members
+// Add points to the player's score
+
+// Textbook Chapter 6 - Comparing members
+// Check whether two players have the same jersey number
+
+player.c
+
+    // Textbook Chapter 6 - Structure pointers
+    // Check whether the player pointer is NULL
+
+    // Print the player's name using ->
+
+    // Print the jersey number
+
+    // Print the player's points
+
+
+    // Textbook Chapter 6 - Structure initialization
+    // Return if the player pointer is NULL
+
+    // Check whether the name is NULL
+
+    // If NULL, make the name empty
+
+    // Otherwise, copy the name with a size limit
+
+    // Make sure the name ends with '\0'
+
+    // Set the jersey number
+
+    // Set the player's points
+
+    // Textbook Chapter 6 - Accessing members
+    // Return zero if the pointer is NULL
+
+    // Return the player's points
+
+
+    // Textbook Chapter 6 - Updating members
+    // Return if the player pointer is NULL
+
+    // Add more points to the existing score
+
+
+
+    // Textbook Chapter 6 - Comparing members
+    // Return zero if either pointer is NULL
+
+    // Compare the jersey numbers
+
+    // Return one if they match
+
+    // Otherwise, return zero
+
+main.c
+int main(void) {
+    // Textbook Chapter 6 - Structure initialization
+    // Create two Player structures
+
+
+    // Use init_player to give each player a name, jersey, and points
+    // Make sure the two players have different jersey numbers
+
+
+    // Textbook Chapter 6 - Structure members
+    // Print both players using print_player
+
+
+    // Textbook Chapter 6 - Accessing members
+    // Use get_points to display the first player's points
+
+
+    // Textbook Chapter 6 - Updating through pointers
+    // Use add_points to increase the first player's points
+
+    // Print the player's updated information
+
+
+    // Textbook Chapter 6 - Comparing structure members
+    // Create another player with the same jersey as the first player
+
+    // Compare two players with the same jersey
+
+    // Compare two players with different jerseys
+
+
+    // Textbook Chapter 6 - NULL handling
+    // Test a NULL pointer without crashing
+

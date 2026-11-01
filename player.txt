@@ -1,0 +1,33 @@
+Part A  Basic Questions
+
+1) It keeps related information together and makes it easier to use.
+
+2) p->jersey accesses the jersey through a pointer, while p.jersey accesses it directly from a structure.
+
+3) The last space is needed for '\0' so the program knows where the name ends.
+
+Part B  Basic Questions
+
+4) A pointer allows the function to change the original player's points instead of changing a copy.
+
+5) Use `print_player(&roster[1]);` to pass the second player.
+
+Part C
+
+6) A coding agent is an AI tool that can work on code and complete tasks. Autocomplete only suggests what to type next.
+
+7) I would tell the agent to check for NULL values and make sure the player's name fits in the array.
+
+8) **Mistakes:** I will review the code to make sure it works correctly. **Security risks:** I will check for unsafe changes before using the code.
+
+9) They ask for confirmation so the user can approve changes before they happen.
+
+10) I would compile and run the program to make sure everything still works.
+
+Optional AI Review
+
+Prompt: Review my `player.c` for NULL checks and name-buffer safety.
+
+Suggestion: Test a name longer than 31 characters to check that the copy stays within the array.
+
+
